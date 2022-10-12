@@ -1,0 +1,348 @@
+@media only screen and (max-width: 575px) {
+  /* Menu */
+  .menu-background .menu-overlay {
+    padding: 70px 0 70px;
+  }
+  .menu-background .menu-overlay h3 {
+    padding-left: 40px;
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+
+  .menu-background .menu-overlay h1 {
+    font-size: 45px;
+    padding-bottom: 30px;
+  }
+
+  .menu-background .menu-overlay a {
+    padding: 5px 30px;
+    font-size: 14px;
+  }
+
+  .best-menu .shadow {
+    padding: 48px 60px;
+    margin-top: 0;
+  }
+  .best-menu .text h3 {
+    font-size: 30px;
+  }
+  .best-menu .text {
+    padding-bottom: 80px;
+  }
+  .best-menu .items {
+    padding-bottom: 40px;
+  }
+  .best-menu a {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+
+  /* About */
+  .about-background .about-overlay {
+    padding: 60px 0 60px;
+  }
+  .about-background .about-overlay .text h3 {
+    font-size: 35px;
+    padding-bottom: 25px;
+  }
+  .about-background .about-overlay .text {
+    font-size: 14px;
+  }
+  .about-background .about-overlay .text .details a {
+    padding: 9px 30px;
+    font-size: 14px;
+  }
+
+  .offer .text h4 {
+    font-size: 35px;
+  }
+  .offer .text p {
+    font-size: 14px;
+  }
+  .offer .text h5 {
+    font-size: 22px;
+  }
+
+  .offer .shadow {
+    padding: 60px 30px;
+  }
+  .offer .text {
+    padding: 40px 20px 10px;
+  }
+  .offer .menu-items .item .overlay {
+    height: 95px;
+    width: 95px;
+  }
+  .offer .menu-items .item p {
+    font-size: 14px;
+  }
+  .catering-background .catering-overlay {
+    padding: 70px 0 70px;
+  }
+  .catering-background .catering-overlay h3 {
+    font-size: 22px;
+  }
+  .catering-background .catering-overlay h4 {
+    font-size: 28px;
+    padding-bottom: 0;
+  }
+  .event .shadow {
+    padding: 60px 30px;
+    margin-top: 0;
+  }
+  .event .items {
+    gap: 50px;
+  }
+  .event .item .text h4 {
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+  .event .item .text h4::before {
+    bottom: 14px;
+  }
+  .event .item .text p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .event .items .item .text .read-more a {
+    font-size: 14px;
+  }
+  .about-background .about-overlay .text {
+    padding: 0 30px;
+  }
+
+  /* Visit */
+  .visit-background .visit-overlay {
+    padding: 60px 0 60px;
+  }
+  .visit-background .visit-overlay h3 {
+    font-size: 25px;
+  }
+  .visit-background .visit-overlay h4 {
+    font-size: 35px;
+  }
+  .reservation .reserv-form h4 {
+    font-size: 22px;
+  }
+  .reservation .reserv-form h5 {
+    font-size: 27px;
+  }
+  .reservation .reserv-form form {
+    padding-right: 0px;
+  }
+  .reservation .reserv-form {
+    padding: 0 30px 50px;
+  }
+  .reservation .reserv-form .form-input {
+    padding-bottom: 15px;
+  }
+  .reservation .reserv-form .form-input input {
+    font-size: 14px;
+  }
+  .reservation .reserv-form button {
+    font-size: 14px;
+  }
+  .footer-background .footer-overlay .text p {
+    font-size: 16px;
+  }
+  .footer-background .footer-overlay .logo {
+    height: 300px;
+    width: 300px;
+  }
+  .footer-background .footer-overlay .logo img {
+    width: 150px;
+  }
+  .footer-background .footer-overlay .copyright {
+    display: block;
+    padding: 10px 0 10px;
+  }
+  .footer-background .footer-overlay .copyright .text p {
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 1080px) {
+  /* Menu */
+  .menu-background .menu-overlay {
+    padding: 70px 0 70px;
+  }
+  .menu-background .menu-overlay h3 {
+    padding-left: 40px;
+    font-size: 35px;
+    padding-bottom: 10px;
+  }
+
+  .menu-background .menu-overlay h1 {
+    font-size: 55px;
+    padding-bottom: 30px;
+  }
+
+  .menu-background .menu-overlay a {
+    padding: 5px 30px;
+    font-size: 16px;
+  }
+
+  .best-menu .shadow {
+    padding: 48px 60px;
+    margin-top: 0;
+  }
+  .best-menu .text h3 {
+    font-size: 30px;
+  }
+  .best-menu .text {
+    padding-bottom: 80px;
+  }
+  .best-menu .items {
+    padding-bottom: 40px;
+  }
+  .best-menu a {
+    padding: 7px 35px;
+    font-size: 14px;
+  }
+
+  /* About */
+  .about-background .about-overlay {
+    padding: 60px 0 60px;
+  }
+  .about-background .about-overlay .text h3 {
+    font-size: 35px;
+    padding-bottom: 25px;
+  }
+  .about-background .about-overlay .text {
+    font-size: 14px;
+  }
+  .about-background .about-overlay .text .details a {
+    padding: 9px 30px;
+    font-size: 14px;
+  }
+
+  .offer .text h4 {
+    font-size: 35px;
+  }
+  .offer .text p {
+    font-size: 14px;
+  }
+  .offer .text h5 {
+    font-size: 22px;
+  }
+
+  .offer .shadow {
+    padding: 60px 30px;
+  }
+  .offer .text {
+    padding: 40px 20px 10px;
+  }
+  .offer .menu-items .item .overlay {
+    height: 95px;
+    width: 95px;
+  }
+  .offer .menu-items .item p {
+    font-size: 14px;
+  }
+  .catering-background .catering-overlay {
+    padding: 90px 0 90px;
+  }
+  .catering-background .catering-overlay h3 {
+    font-size: 30px;
+  }
+  .catering-background .catering-overlay h4 {
+    font-size: 40px;
+    padding-bottom: 0;
+  }
+  .event .shadow {
+    padding: 60px 30px;
+    margin-top: 0;
+  }
+  .event .items {
+    gap: 50px;
+  }
+  .event .item .text h4 {
+    font-size: 28px;
+    padding-bottom: 40px;
+  }
+  .event .item .text h4::before {
+    bottom: 14px;
+  }
+  .event .item .text p {
+    padding-top: 10px;
+    font-size: 14px;
+  }
+  .event .items .item .text .read-more a {
+    font-size: 14px;
+  }
+  .about-background .about-overlay .text {
+    padding: 0 30px;
+  }
+
+  /* Visit */
+  .visit-background .visit-overlay {
+    padding: 90px 0 90px;
+  }
+  .visit-background .visit-overlay h3 {
+    font-size: 30px;
+  }
+  .visit-background .visit-overlay h4 {
+    font-size: 35px;
+  }
+  .reservation .reserv-form h4 {
+    font-size: 22px;
+  }
+  .reservation .reserv-form h5 {
+    font-size: 27px;
+  }
+  .reservation .reserv-form form {
+    padding-right: 0px;
+  }
+  .reservation .reserv-form {
+    padding: 0 30px 50px;
+  }
+  .reservation .reserv-form .form-input {
+    padding-bottom: 15px;
+  }
+  .reservation .reserv-form .form-input input {
+    font-size: 14px;
+  }
+  .reservation .reserv-form button {
+    font-size: 14px;
+  }
+  .footer-background .footer-overlay .text p {
+    font-size: 16px;
+  }
+  .footer-background .footer-overlay .logo {
+    height: 300px;
+    width: 300px;
+  }
+  .footer-background .footer-overlay .logo img {
+    width: 150px;
+  }
+  .footer-background .footer-overlay .copyright {
+    display: block;
+    padding: 10px 0 10px;
+  }
+  .footer-background .footer-overlay .copyright .text p {
+    font-size: 12px;
+    text-align: left;
+    padding-bottom: 5px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar > .container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .navbar {
+    padding-bottom: 15px;
+  }
+  .navbar ul {
+    padding-top: 10px;
+  }
+  .navbar ul li a {
+    display: inline-block;
+  }
+  .navbar button {
+    margin-left: 8px;
+    margin-top: 10px;
+  }
+}

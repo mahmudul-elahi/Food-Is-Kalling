@@ -1,0 +1,828 @@
+/* =======================================
+  All-Common-Css-Start
+==========================================*/
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  --primary-color: #ba2b31;
+  --secondary-color: #fec513;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Lora", serif;
+}
+
+p {
+  line-height: 28px;
+  font-family: "Lora", serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+/* =======================================
+  All-Common-Css-End
+==========================================*/
+
+/* =======================================
+  Navbar-Section-Start
+==========================================*/
+.navbar {
+  background: #fff;
+  -webkit-box-shadow: 0 10px 15px rgba(25, 25, 25, 10%);
+  box-shadow: 0 10px 15px rgba(25, 25, 25, 10%);
+}
+.navbar > .container {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+}
+.navbar::before {
+  position: absolute;
+  display: block;
+  height: 6px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  content: "";
+  background: var(--primary-color);
+}
+
+.navbar .navbar-brand {
+  margin-right: 30px;
+}
+
+.navbar .navbar-brand img {
+  height: 100px;
+}
+
+.navbar .navbar-collapse {
+  -webkit-box-flex: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+}
+
+.navbar ul {
+  gap: 20px;
+  margin-right: 35px;
+}
+.navbar ul li a {
+  padding: 2px 8px !important;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  color: var(--primary-color);
+  border-radius: 5px;
+}
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  background: var(--secondary-color);
+  color: #fff;
+}
+.navbar button {
+  color: var(--primary-color);
+}
+/* =======================================
+  Navbar-Section-End
+==========================================*/
+
+/* =======================================
+  Menu-Section-Start
+==========================================*/
+#menu {
+  width: 100%;
+}
+
+.menu-background {
+  background: url(../images/chicken-doner.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.menu-background .menu-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 125px 0 150px;
+}
+
+.menu-background .menu-overlay .text {
+  color: #fff;
+}
+
+.menu-background .menu-overlay h3 {
+  font-size: 55px;
+  font-weight: 400;
+  padding-left: 100px;
+}
+
+.menu-background .menu-overlay h1 {
+  font-size: 100px;
+  font-weight: 400;
+  padding-bottom: 70px;
+  font-family: "Great Vibes", cursive;
+}
+
+.menu-background .menu-overlay a {
+  padding: 5px 40px;
+  background: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.menu-background .menu-overlay a:hover {
+  background: #dfb74e;
+}
+.best-menu .shadow {
+  padding: 60px 30px;
+  background: #fff;
+  margin-top: -60px;
+}
+
+.best-menu .text {
+  text-align: center;
+  padding-bottom: 90px;
+}
+
+.best-menu .text h3 {
+  color: #dfb74e;
+  font-size: 40px;
+  display: inline-block;
+  position: relative;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.best-menu .text h3::before {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  content: "";
+  height: 25px;
+  width: 100%;
+  background: url(../images/Shape/shape1.png) no-repeat center/cover;
+}
+
+.best-menu .items {
+  padding-bottom: 80px;
+}
+
+.best-menu .item {
+  position: relative;
+  overflow: hidden;
+}
+
+.best-menu .item .image img {
+  width: 100%;
+  height: 230px;
+  -webkit-transition: 0.8s;
+  -o-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.best-menu .item .image .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 12px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.best-menu .item .image .overlay h4 {
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transform: translateY(25px);
+  -ms-transform: translateY(25px);
+  transform: translateY(25px);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.best-menu .item .image .overlay button {
+  text-transform: uppercase;
+  color: #fff;
+  background: var(--primary-color);
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  -webkit-transform: translateY(50px);
+  -ms-transform: translateY(50px);
+  transform: translateY(50px);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0;
+  font-weight: 700;
+}
+
+.best-menu .item .image .overlay button:hover {
+  background: #dfb74e;
+}
+
+.best-menu a {
+  padding: 8px 45px;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.best-menu a:hover {
+  background: var(--primary-color);
+  color: #fff;
+}
+
+.best-menu .item:hover .image .overlay h4 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+}
+
+.best-menu .item:hover .image .overlay button {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.best-menu .item:hover .image .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.best-menu .item:hover .image img {
+  scale: 1.1;
+}
+/* =======================================
+  Menu-Section-End
+==========================================*/
+
+/* =======================================
+  About-Section-Start
+==========================================*/
+#about {
+  width: 100%;
+}
+
+.about-background {
+  background: url(../images/about-banner.JPG) no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.about-background .about-overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 100px 0 100px;
+}
+
+.about-background .about-overlay .text {
+  color: #fff;
+}
+
+.about-background .about-overlay .text h3 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+.about-background .about-overlay .text .details {
+  padding-top: 30px;
+}
+.about-background .about-overlay .text .details a {
+  padding: 11px 55px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.about-background .about-overlay .text .details a i {
+  padding-top: 3px;
+}
+
+.about-background .about-overlay .text .details a:hover {
+  background: #fff;
+  color: #4d3121;
+}
+
+.offer .shadow {
+  padding: 120px 30px;
+  background: #fff;
+}
+
+.offer .text {
+  padding: 0px 20px 10px;
+  color: var(--primary-color);
+}
+.offer .text h4 {
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+}
+.offer .text h5 {
+  font-size: 25px;
+  font-weight: 400;
+  color: #4d3121;
+  padding-bottom: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+.offer .text h5::before {
+  position: absolute;
+  content: "";
+  bottom: 22px;
+  left: 0;
+  height: 13px;
+  width: 100%;
+  background: url(../images/shape/shape2.png) no-repeat center/cover;
+}
+
+.offer .text p {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.offer .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.offer .menu-items .item .overlay {
+  height: 105px;
+  width: 105px;
+  background: rgba(0, 0, 0, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.offer .menu-items .item p {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+}
+.offer .menu-items .item:nth-child(1) {
+  background: url(../images/burger.jpg) no-repeat center/cover;
+  border-radius: 50%;
+}
+.offer .menu-items .item:nth-child(2) {
+  background: url(../images/chicken-nuggets.jpg) no-repeat center/cover;
+  border-radius: 50%;
+}
+.offer .menu-items .item:nth-child(3) {
+  background: url(../images/chicken-doner.jpg) no-repeat center/cover;
+  border-radius: 50%;
+}
+
+/* =======================================
+  About-Section-End
+==========================================*/
+
+/* =======================================
+  Catering-Section-Start
+==========================================*/
+#catering {
+  width: 100%;
+}
+
+.catering-background {
+  background: url(../images/catering-banner.JPG) no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.catering-background .catering-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 125px 0 150px;
+}
+
+.catering-background .catering-overlay .text {
+  color: #fff;
+}
+
+.catering-background .catering-overlay h3 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.catering-background .catering-overlay h4 {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 70px;
+}
+
+.event .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  gap: 100px;
+}
+.event .shadow {
+  padding: 100px 30px;
+  background: #fff;
+  margin-top: -60px;
+}
+.event .items .item:nth-child(even) .text {
+  padding-left: 15px;
+  text-align: right;
+}
+
+.event .items .item:nth-child(odd) .text {
+  padding-right: 15px;
+}
+
+.event .items .item .text .read-more a {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  gap: 15px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.event .items .item .text .read-more a:hover {
+  background: #151515;
+  color: #fff;
+}
+.event .items .item .text .read-more a i {
+  padding-top: 2px;
+}
+
+.event .items .item:nth-child(even) .text .read-more {
+  text-align: right;
+}
+.event .item .text h4 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #151515;
+  text-transform: uppercase;
+  padding-bottom: 60px;
+  position: relative;
+  display: inline-block;
+}
+.event .item .text h4::before {
+  position: absolute;
+  content: "";
+  bottom: 30px;
+  left: 0;
+  height: 28px;
+  width: 100%;
+  background: url(../images/shape/shape3.png) no-repeat center/cover;
+}
+.event .item .text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #151515;
+  padding-bottom: 15px;
+}
+
+.event .item .text a {
+  padding: 8px 35px;
+  border: 1px solid #151515;
+  color: #151515;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 20px;
+}
+/* =======================================
+  Catering-Section-End
+==========================================*/
+
+/* =======================================
+  Visit-Section-End
+==========================================*/
+
+#visit {
+  width: 100%;
+}
+
+.visit-background {
+  background: url(../images/visit-banner.JPG) no-repeat top/cover;
+  background-attachment: fixed;
+}
+
+.visit-background .visit-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 200px 0 200px;
+}
+
+.visit-background .visit-overlay .text {
+  color: #fff;
+  text-align: center;
+}
+
+.visit-background .visit-overlay h3 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.visit-background .visit-overlay h4 {
+  font-size: 60px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.reservation .shadow {
+  padding: 60px 30px 0px;
+  background: #fff;
+}
+
+.reservation .reserv-form {
+  padding: 0 30px;
+}
+.reservation .reserv-form form {
+  padding-right: 50px;
+}
+.reservation .reserv-form h4 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  color: rgb(172, 44, 0);
+}
+.reservation .reserv-form h5 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  padding-bottom: 90px;
+  position: relative;
+  display: inline-block;
+}
+.reservation .reserv-form h5::before {
+  position: absolute;
+  content: "";
+  bottom: 55px;
+  left: 0;
+  height: 28px;
+  width: 100%;
+  background: url(../images/shape/shape3.png) no-repeat center/cover;
+}
+.reservation .reserv-form .form-input {
+  padding-bottom: 25px;
+}
+.reservation .reserv-form .form-input input {
+  border: 1px solid #000;
+  border-radius: 0;
+  padding: 8px;
+  padding-left: 20px;
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form .form-input input::-webkit-input-placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form .form-input input::-moz-placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form .form-input input:-ms-input-placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form .form-input input::-ms-input-placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form .form-input input::placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.reservation .reserv-form button {
+  padding: 10px 25px;
+  background: #ac2c00;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 20px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.reservation .reserv-form button:hover {
+  background: #d95326;
+}
+.reservation .image {
+  padding: 50px;
+}
+/* =======================================
+  Visit-Section-End
+==========================================*/
+
+/* =======================================
+  Footer-Section-Start
+==========================================*/
+#footer {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer-background {
+  background: url(../images/footer-banner.JPG) no-repeat center/cover;
+  background-attachment: fixed;
+}
+
+.footer-background .footer-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.footer-background .footer-overlay .logo {
+  height: 400px;
+  width: 400px;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -80px;
+  -webkit-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+}
+.footer-background .footer-overlay .logo img {
+  width: 220px;
+  margin-top: 80px;
+}
+
+.footer-background .footer-overlay .text {
+  color: #fff;
+  text-align: center;
+}
+
+.footer-background .footer-overlay .text p {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 20px 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.footer-background .footer-overlay .text p span {
+  display: block;
+}
+.footer-background .footer-overlay .text h4 {
+  display: inline-block;
+  text-transform: uppercase;
+  background: #fff;
+  color: #c4725a;
+  font-size: 20px;
+  padding: 3px 18px;
+}
+.footer-background .footer-overlay .copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 40px 0 10px;
+}
+.footer-background .footer-overlay .copyright .text p {
+  color: #d6d1ce;
+  font-size: 14px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+.footer-background .footer-overlay .copyright .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.footer-background .footer-overlay .copyright .social a {
+  color: #bf2b2e;
+  background: #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.footer-background .footer-overlay .copyright .social a:hover {
+  background: var(--color);
+  color: #fff;
+}
+/* =======================================
+  Footer-Section-End
+==========================================*/

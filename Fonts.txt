@@ -1,0 +1,7 @@
+Lora 300, 400, 500, 600, 700
+Montserrat 400, 500, 600, 700
+Great Vibes 400
+
+font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Great Vibes', cursive;
